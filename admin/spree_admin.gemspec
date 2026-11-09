@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'chartkick', '~> 5.0'
   s.add_dependency 'dartsass-rails', '~> 0.5'
   s.add_dependency 'groupdate', '~> 6.2'
-  s.add_dependency 'hightop', '~> 0.3'
+  s.add_dependency 'hightop', '>= 0.3', '< 2.0'
   s.add_dependency 'importmap-rails'
   s.add_dependency 'inline_svg', '~> 1.10'
   s.add_dependency 'local_time', '~> 3.0'
